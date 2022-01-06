@@ -1,0 +1,189 @@
+body {
+  margin:100px; 
+}
+
+.card_pricing {
+  max-width:338px; 
+  min-height:700px; 
+  margin-right: 47.9px; 
+  margin-left:47.9px; 
+  border: 2px solid #CCC7DB;
+  box-shadow: 2px 5px #CCC7DB;
+}
+
+.card_container {
+  margin: 20px; 
+  display:flex; 
+  flex-direction: row;
+}
+
+.card-body {
+  max-width:338px; 
+  height:600px;
+  padding:0;
+}
+
+.card-group {
+  flex-flow:row; 
+  width:1200px;
+}
+
+h2 {
+  margin-left:67px; 
+}
+
+#card_wrapper {
+  display:flex; 
+  flex-direction:row; 
+  justify-content: center; 
+  padding: 0 100px; 
+}
+
+
+.card-title { 
+  font-family: 'Inter', sans-serif; 
+  font-weight:600; 
+  font-size:36px; 
+  line-height: 44px; 
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.fa-circle:before, 
+.fa-spinner:before {
+  margin-right:15px; 
+}
+
+.card-text_primary {
+  font-size: 21px;
+  line-height: 26px;
+  padding:20px;
+  text-align: center;
+}
+
+.card-text_primary.big {
+  padding-top:120px; 
+}
+
+.card-text_primary_container {
+  background-color:#74FBF2;
+  height: 157px;
+  max-width:338px;
+}
+
+.card-text_secondary_container {
+  background-color:#0FE0D2;
+}
+
+.card-text_secondary {
+  padding:40px;
+  text-align: center;
+  font-family: 'Inter';
+  font-size:15px; 
+  line-height:18px; 
+  color:#1c1c1c; 
+}
+
+.card-text_third {
+  text-align: center;
+}
+
+.card-text-third_container {
+  padding:10px 40px;
+  height:164px;
+}
+
+.card-text_primary_container.big {
+  height: 293px; 
+}
+
+.card-text_third.big {
+  margin-top:20px; 
+}
+
+.card-text-thid_container_list {
+  font-weight: bold;
+}
+
+/* accordion design */
+
+.card-header {
+  background-color: #E0E4F4;
+}
+
+.btn-link {
+ color: #002545;
+ font-weight:600; 
+}
+
+.accordion_subheadline {
+  display:flex; 
+  flex-direction:row;
+}
+
+.accordion_subheadeline_text {
+  margin-top:40px; 
+  margin-left:192px;
+  font-family: 'Inter', sans-serif;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  display:flex; 
+  flex-direction:column; 
+}
+
+.accordion_card-body {
+  display:flex;
+  border-bottom:1px solid #CCC7DB;
+
+}
+
+/*.fa-plus:before {
+  position:relative; 
+  margin-left:6500%; 
+}*/
+
+.btn-link:after {
+  content: '\02795'; 
+  width:15px; 
+  font-size:15px; 
+  text-align:center; 
+  border-radius:5px; 
+  right:15px; 
+  top:15px; 
+  position:absolute; 
+}
+
+.btn-link.collapsed:after {
+  content: '\2796'; 
+}
+
+.btn-link:before {
+  content: ''; 
+  height:15px; 
+  position: absolute; 
+  background:#fff; 
+  z-index:1; 
+  transform: rotate(45deg);
+  left:30px; 
+  top:46px; 
+}
+
+.card-body_text {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.row {
+  gap:14rem;
+}
+
+.row_4 {
+  display:flex;
+  gap:11rem;
+}
+
+.row_6 {
+  display:flex;
+  gap:13rem;
+}
